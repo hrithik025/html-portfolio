@@ -345,12 +345,14 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  /* align-items: center; */
+  /* justify-content: space-around; */
   gap: 0.5rem;
 }
 
 article .icon {
   cursor: default;
+
 }
 
 /* PROJECTS SECTION */
@@ -423,10 +425,8 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-
-footer p {
+  background-color: white;
+  color: black;
   text-align: center;
+  padding: 10px 0;
 }
